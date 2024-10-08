@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string secretText = "This is the hidden text.";
+    char input;
+
+    std::cout << "Press Enter to reveal the secret text...";
+
+    // Wait for the user to press Enter
+    std::cin.get(input);
+
+    // Display the secret text
+    std::cout << "\n" << secretText << std::endl;
+
+    return 0;
+}
